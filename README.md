@@ -105,9 +105,6 @@ A minimal n8n workflow:
 2. **HTTP Request** - `GET http://<host>:8080/check_balance`
 3. **Telegram** - message text: `📋 {{ date }}` followed by `{{ $json.message }}`
 
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
 
 ## Notes
 
@@ -117,3 +114,8 @@ MIT — see [LICENSE](LICENSE) for details.
 - Certificate verification is disabled for DESCO requests because their API
   serves an incomplete certificate chain
 - This project is not affiliated with or endorsed by DESCO
+
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
