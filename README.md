@@ -1,4 +1,7 @@
 # DESCO Balance API
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Flask](https://img.shields.io/badge/flask-3.0-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 A small Flask service that fetches a [DESCO](https://prepaid.desco.org.bd)
 prepaid account's **balance**, **meter information** and **current-month usage**,
@@ -101,6 +104,10 @@ A minimal n8n workflow:
 1. **Schedule Trigger** - runs daily at a fixed time
 2. **HTTP Request** - `GET http://<host>:8080/check_balance`
 3. **Telegram** - message text: `📋 {{ date }}` followed by `{{ $json.message }}`
+
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
 
 ## Notes
 
